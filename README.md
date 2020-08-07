@@ -5,7 +5,7 @@ Tipo: Notebook
 
 Año adquisición: 2018
 
-Procesador:
+###### Procesador:
 
 Marca/Modelo: Intel Core i5-8300H
 
@@ -28,7 +28,7 @@ L1i: 32KB
 L2: 256KB
 L3: 8192KB
 
-Memoria
+###### Memoria
 
 Total: 8 GB
 
@@ -38,7 +38,7 @@ Velocidad 2400 MHz
 
 Numero de (SO)DIMM: 2
 
-Tarjeta Gráfica
+###### Tarjeta Gráfica
 
 Marca / Modelo: Nvidia GeForce GTX 1050
 
@@ -46,7 +46,7 @@ Memoria dedicada: 4096 MB
 
 Resolución: 1920 x 1080
 
-Disco 1:
+###### Disco 1:
 
 Marca: Toshiba
 
@@ -70,3 +70,16 @@ Proveedor internet: GTD Manquehue
 
 ![alt text](https://github.com/FelipeAravenaR98/MCOC2020-P0/blob/master/Rendimiento%20A%40B.png?raw=true)
 
+###### 1
+El gráfico difiere solo en los tiempos transcurridos ya que en el de uso de memoria solo depende de los valores de N y utilizamos valores similares. En cuanto al tiempo, para los primeros valores de N en mi caso demora mucho más y la mayor densidad de puntos se dan bajo los 1ms a diferencia del gráfico del profesor.
+###### 2
+el peak inicial se puede deber a la velocidad del procesador y luego, para mayores valores de N, la velocidad de las frecuencas RAM pasan a ser más importantes. Esto debido a que la Ram funciona como un puente entre el disco duro y el procesador siendo una memoria volátil, que debido a que yo tengo mayor frecuencia con respecto a la del profesor, entonces entregará los datos para procesar a mayor velocidad. Sion embargo como tengo menor memoria, a valores de N más altos que sobrepasen mi ram no los podré procesar igual que el profesor.
+###### 3
+
+###### 4
+versión de python: 3.7
+###### 5
+version de numpy:1.16.4
+
+###### 6
+Sí se utiliza más de un procesador. La primera imagen muestra el uso de los núcleos del cpu sin correr el programa y la segunda corriendo el programa.Se utiliza el software cpuid hwmonitor donde la primera columna es el uso de cpu, la segunda el valor minimo desde q se inicio el programa y la tercera el valor máximo.
