@@ -68,4 +68,5 @@ Proveedor internet: GTD Manquehue
 
 # Desempeño MATMUL
 
+![alt text](https://github.com/FelipeAravenaR98/MCOC2020-P0/blob/master/Rendimiento%20A%40B.png?raw=true)
 
