@@ -83,3 +83,9 @@ version de numpy:1.16.4
 
 ###### 6
 Sí se utiliza más de un procesador. La primera imagen muestra el uso de los núcleos del cpu sin correr el programa y la segunda corriendo el programa.Se utiliza el software cpuid hwmonitor donde la primera columna es el uso de cpu, la segunda el valor minimo desde q se inicio el programa y la tercera el valor máximo.
+
+
+
+https://github.com/FelipeAravenaR98/MCOC2020-P0/blob/master/cpu%20sin%20programa.JPG
+
+
