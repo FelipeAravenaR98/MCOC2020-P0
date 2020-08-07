@@ -84,7 +84,7 @@ for corrida in range(corridas):
     
     texto.close()    
     plt.loglog(Ns,lista_m,"-o")
-plt.axhline(8000000000,linestyle="--",color="k")
+plt.axhline(8000000000,linestyle="--",color="r")
     
 y2=[10**3,10**4,10**5,10**6,10**7,10**8,10**9,10**10]
 yl2=["1 kb","10 kb","100 kb", "1 mb", "10 mb", "100 mb", "1 gb", "10 gb", "100 gb"]    
