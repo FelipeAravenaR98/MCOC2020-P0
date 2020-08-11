@@ -108,7 +108,7 @@ Sí se utiliza más de un procesador. La primera imagen muestra el uso de los n�
 
 ![alt text](https://github.com/FelipeAravenaR98/MCOC2020-P0/blob/master/cpu%20sin%20programa%20mimatmul.JPG?raw=true)
 
-![alt text](https://github.com/FelipeAravenaR98/MCOC2020-P0/blob/master/cpu%20con%20programa.JPG?raw=true)
+![alt text](https://github.com/FelipeAravenaR98/MCOC2020-P0/blob/master/cpu%20con%20programa%20mimatmul.JPG?raw=true)
 
 
 
