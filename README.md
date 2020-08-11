@@ -90,7 +90,7 @@ Sí se utiliza más de un procesador. La primera imagen muestra el uso de los n�
 
 # Desempeño MIMATMUL
 
-![alt text](https://github.com/FelipeAravenaR98/MCOC2020-P0/blob/master/Rendimiento%20A%40B.png?raw=true)
+![alt text](https://github.com/FelipeAravenaR98/MCOC2020-P0/blob/master/Rendimiento%20A%40B%20mimatmul.png?raw=true)
 
 ###### 1
 El gráfico difiere solo en los tiempos transcurridos ya que en el de uso de memoria solo depende de los valores de N y utilizamos valores similares. En cuanto al tiempo, para los primeros valores de N en mi caso demora mucho más y la mayor densidad de puntos se dan bajo los 1ms a diferencia del gráfico del profesor.
