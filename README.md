@@ -113,7 +113,14 @@ Sí se utiliza más de un procesador. La primera imagen muestra el uso de los n�
 
 # Desempeño INV
 
+Como era de esperar, en el caso de los datos half se utiliza menor memoria y en los longdouble mayor. Esto ocurre debido a que a mayor tamaño de bits en el tipo de dato, mayor memoria se utiliza. Con respecto a las funciones de inversión de matrices, se puede ver que utilizando numpy se esperan mayores tiempos de ejecución en comparación a scipy (no muy relevantes) Además, entre las funciones Scipy la mayor rapidez y menor uso de memoria se alcanza con el parametro de overwrite = True porque se descartan algunos datos d la matriz que es invertida.
 
+###### 1
+El método de numpy utiliza el método de diagonalizar (RREF) que es más lento que el que utiliza Scipy. Éste debe ser utilizando la adjunta y el determinante por lo que es más rápido que los métodos de mumpy.
+
+###### 2
+
+Como se comentó en la clase, las memorias del procesador son las más rápidas del sistema por lo que a mayor memoria caché (en especial si es del tipo L3) los tiempos de ejecución disminuyen. Sumado a esto, tener más nucleos en el procesador permite hacer cálculos en paralelo y aumentar la velocidad. Esto se ven en los gráficos de desempeño cuando se superan las memorias cache los tiempos de ejecucion tienen peaks o aumentan hasta llegar a sobrepasar la memoria Ram, en donde se siguen almacenando datos pero en el disco duro (hdd o ssd) lo cual es muy lento y se intenta evitar.
 
 
 
