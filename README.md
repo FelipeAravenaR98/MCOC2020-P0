@@ -123,4 +123,8 @@ El método de numpy utiliza el método de diagonalizar (RREF) que es más lento 
 Como se comentó en la clase, las memorias del procesador son las más rápidas del sistema por lo que a mayor memoria caché (en especial si es del tipo L3) los tiempos de ejecución disminuyen. Sumado a esto, tener más nucleos en el procesador permite hacer cálculos en paralelo y aumentar la velocidad. Esto se ven en los gráficos de desempeño cuando se superan las memorias cache los tiempos de ejecucion tienen peaks o aumentan hasta llegar a sobrepasar la memoria Ram, en donde se siguen almacenando datos pero en el disco duro (hdd o ssd) lo cual es muy lento y se intenta evitar.
 
 
+# Desempeño Ax = b
+
+Como era de esperar, los calculos invirtiendo la matriz tarda más que en el caso del solve probablemente debido a que el solve utiliza ciertos métodos numéricos o aproximaciónes numéricas para resolver el problema más rápidamente. Se puede ver que hay grandes peaks en el método de inversión de matriz probablemente provocados por los rendimientos en las últimas corridas que son más lentas por "arrastre de cálculos anteriores".
+
 
