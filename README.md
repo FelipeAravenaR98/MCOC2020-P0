@@ -133,3 +133,5 @@ A continuación se puede ver el gráfico pedido:
 
 ![alt text](https://github.com/FelipeAravenaR98/MCOC2020-P0/blob/master/Entrega%206/Desempe%C3%B1o%20invB.png?raw=true)
 
+El resultado es el esperado, obteniendo uno muy similar al entregado en el encunciado donde el método más lento y menos optimizado o adecuado para el cálculo es el de la inversa, mientras que el más rápido para matrices grandes es solver de scipy con pos y overwrite activados y el más rápido en matrices pequeñas es el solver de numpy.
+
