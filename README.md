@@ -131,6 +131,5 @@ Como era de esperar, los calculos invirtiendo la matriz tarda más que en el cas
 
 A continuación se puede ver el gráfico pedido:
 
-![alt text](https://github.com/FelipeAravenaR98/MCOC2020-P0/blob/master/Entrega%206/Desempe%C3%B1o%20invB.png
-?raw=true)
+![alt text](https://github.com/FelipeAravenaR98/MCOC2020-P0/blob/master/Entrega%206/Desempe%C3%B1o%20invB.png?raw=true)
 
